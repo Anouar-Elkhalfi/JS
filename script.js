@@ -9,4 +9,6 @@ let monsterHealth;
 let varString = "stick";// variable as a string
 let inventory = ["stick","dagger","sword"]; // variable as array of strings
 
-let button1 = document.querySelector ('#button1');
+const button1 = document.querySelector ('#button1');
+const button2 = document.querySelector("#button2");
+const button3 = document.querySelector("#button3");
