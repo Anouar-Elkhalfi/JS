@@ -19,7 +19,7 @@ const goldText = document.querySelector('#goldText');
 const monsterStats = document.querySelector('#monsterStats');
 const monsterName = document.querySelector('#monsterName');
 const monsterHealthText = document.querySelector ("#monsterHealth");
-function goStore() {
+function goStore() {                      //Déclarer une fonction
   console.log("Going to store.");
 }
 function goCave() {
@@ -28,4 +28,6 @@ function goCave() {
 function fightDragon() {
   console.log("Fighting dragon.");
 }
-
+button1.onclick = goStore;
+button2.onclick = goCave;
+button3.onclick = fightDragon;
