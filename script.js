@@ -8,3 +8,4 @@ let fighting;
 let monsterHealth;
 let varString = "stick";// variable as a string
 let inventory = ["stick","dagger","sword"]; // variable as array of strings
+get statElement = document.getElementById ("stats")
